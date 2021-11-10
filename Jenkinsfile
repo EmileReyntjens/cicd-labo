@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('SonarQube Analysis') {
+            steps{
+                echo 'sonarqube scannen lel'
+            }
+        }
     }
 }
